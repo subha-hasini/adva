@@ -1,0 +1,5 @@
+- hosts: all
+- name: Copy file
+      copy:
+          src: /home/subha/tiru/VirtualBox-5.2.22-126460-Win.exe
+          dest: /home/tiru
